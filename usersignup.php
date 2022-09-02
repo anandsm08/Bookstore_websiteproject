@@ -9,10 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <!-- <div class="info">
-            <h3>Sign Up</h3>
-            <p>Enter your Details</p>
-        </div> -->
+        
             <div class="form">
             <h3>Sign Up</h3>
             <p>Enter your Details</p>
