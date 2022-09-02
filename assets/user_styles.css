@@ -18,12 +18,14 @@ width: 100%;
 border-radius: 0.5rem;
 border:5px;
 background-color: var(--white);
-border: var(--border);
-
+border-color: black;
 }
 .container form {
   font-family: 'Comfortoo', cursive;
   font-size: 1.2rem;
+}
+.container .form {
+  font-family: 'Comfortoo',cursive;
 }
 
 .container form .box{
@@ -37,3 +39,11 @@ border: var(--border);
   font-family: 'Source Code Pro',monospace;
 }
 
+
+.message{
+  position:sticky;
+  margin:0 auto;
+  align-items: center;
+  background-color: lightcyan;
+  justify-content: center;
+}
