@@ -19,6 +19,7 @@
             }else{
                 mysqli_query($conn,"INSERT INTO `user`(user_name,user_email,user_password,user_type) VALUES('$name','$email','$cpassword','$usertype')") or die('Query Failed');
                 $message[]='Registered Successfully! Kindly Login to get access';
+                header('location:userlogin.php');
             }
         }
     
@@ -75,7 +76,7 @@
                     <br>
                 <select name="usertype" class="box">
                     <option value="user">User</option>
-                    <option value="Admin">Admin</option>
+                    <option value="admin">Admin</option>
                 </select>
                 <br>
                 <input type="submit" name="submit" value="Register">
