@@ -1,0 +1,23 @@
+.header{
+    position:sticky;
+    z-index: 1000;
+    top:0;
+    right: 0;
+    left: 0;
+    background-color: whitesmoke;
+    box-shadow: gray 5px;
+}
+.header .flex{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding: 2rem;
+    position:relative;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.header .flex .logo{
+    font-size: 1.75rem;
+    color: black;
+}
