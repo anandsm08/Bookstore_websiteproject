@@ -22,7 +22,7 @@
                         $_SESSION['username']=$row['user_name'];
                         $_SESSION['useremail']=$row['user_email'];
                         $_SESSION['userid']=$row['user_id'];
-                        header('location:home_page.php');
+                        header('location:home.html');
 
                 }
         }else{
@@ -48,11 +48,11 @@
     <link rel="stylesheet" href="assets/user_styles.css">
 </head>
 <body>
-    <div class="message">
+    <!-- <div class="message">
         <span>'.$message.'</span>
         <i class="fa fa-bell" aria-hidden="true" onclick="this.parentElement.remove();"></i>
 
-    </div>
+    </div> -->
     <?php
     if(isset($message)){
         foreach($message as $message){

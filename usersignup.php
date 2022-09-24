@@ -40,11 +40,11 @@
     <link rel="stylesheet" href="assets/user_styles.css">
 </head>
 <body>
-    <div class="message">
+    <!-- <div class="message">
         <span>'.$message.'</span>
         <i class="fa fa-bell" aria-hidden="true" onclick="this.parentElement.remove();"></i>
 
-    </div>
+    </div> -->
     <?php
     if(isset($message)){
         foreach($message as $message){
